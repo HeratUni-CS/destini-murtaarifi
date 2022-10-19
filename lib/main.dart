@@ -93,6 +93,8 @@ class _StoryPageState extends State<StoryPage> {
                         first.nextStory(Random().nextInt(6));
                       });
                     },
+                    
+                    
                     style: TextButton.styleFrom(backgroundColor: Colors.blue),
                     child: Text(
                       first.getChoice2(),
